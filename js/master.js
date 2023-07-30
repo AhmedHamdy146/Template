@@ -73,7 +73,7 @@ function RandomBackground() {
       document.querySelector(
         ".landing-page"
       ).style.backgroundImage = `url(images/shuffle-0${imgsArray[randomNumber]}.jpg)`;
-    }, 2000);
+    }, 20000);
   }
 }
 RandomBackground();
